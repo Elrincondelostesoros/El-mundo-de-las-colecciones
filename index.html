@@ -4,45 +4,47 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mi primera página web</title>
+    <title>Tienda Virtual</title>
     <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f0f0f0;
-        }
-        header {
-            background-color: #333;
-            color: #fff;
-            text-align: center;
-            padding: 10px 0;
-        }
-        .container {
-            max-width: 800px;
-            margin: 20px auto;
-            padding: 20px;
-            background-color: #fff;
-            border-radius: 5px;
-            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-        }
-        h1 {
-            color: #333;
-        }
-        p {
-            color: #666;
-        }
+        /* Estilos CSS aquí */
     </style>
 </head>
 <body>
     <header>
-        <h1>Mi primera página web</h1>
+        <h1>Tienda Virtual</h1>
+        <nav>
+            <ul>
+                <li><a href="#categorias">Categorías</a></li>
+                <li><a href="#destacado">Producto Destacado</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
     </header>
-    <div class="container">
-        <h2>¡Bienvenido!</h2>
-        <p>Esta es mi primera página web creada con HTML y CSS.</p>
-    </div>
+    <section id="presentacion">
+        <h2>Bienvenidos a nuestra tienda virtual</h2>
+        <p>Descubre nuestros productos exclusivos y encuentra las mejores ofertas.</p>
+    </section>
+    <section id="categorias">
+        <h2>Categorías</h2>
+        <ul>
+            <li><a href="#categoria1">Categoría 1</a></li>
+            <li><a href="#categoria2">Categoría 2</a></li>
+            <li><a href="#categoria3">Categoría 3</a></li>
+        </ul>
+    </section>
+    <section id="destacado">
+        <h2>Producto Destacado</h2>
+        <div class="producto">
+            <img src="imagen-producto.jpg" alt="Producto Destacado">
+            <h3>Nombre del Producto</h3>
+            <p>Descripción del producto. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <p><strong>Precio:</strong> $XX.XX</p>
+            <button>Agregar al Carrito</button>
+        </div>
+    </section>
+    <footer id="contacto">
+        <h2>Contacto</h2>
+        <p>Para más información, contáctenos en: contacto@tiendavirtual.com</p>
+    </footer>
 </body>
 </html>
-
-
